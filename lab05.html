@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var order = prompt("what do you want to eat blueberry  or strawberry cheesecake?")
+                
+                while(order !== "blueberry" && order !== "strawberry")
+                {
+                    order = prompt("what do you want to eat blueberry  or strawberry cheesecake?")
+                 }   
+                    var itemorder = '';
+                    if(order == "blueberry")
+                    {
+                        itemorder = '<img src="DSC_0232-2.jpg" alt="blueberry"/>';
+                    }
+                    else if(order == "strawberry")
+                    {
+                        itemorder = '<img src="18484lrg.jpg" alt="strawberry"/>';
+                        console.log('hh')
+                    }
+                    var numofpeices = prompt("how many peice of cheesecake do you want?");
+        
+                    var result ='';
+                    for(var i=0; i<numofpeices; i++)
+                    {
+                        result = result + itemorder;
+                    }
+                    document.write(result);
+                    </script>
+</body>
+</html>
