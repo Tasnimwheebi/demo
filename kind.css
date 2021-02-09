@@ -1,0 +1,30 @@
+header nav ul li {
+    display: inline;
+}  
+main{
+    text-align: center;
+    line-height: 2pc;
+}
+.logo { 
+    width: 150px;
+}
+.sunblocks {
+    width: 100%;
+}
+.sebamed {
+    width: 100px;
+    float: left;
+    margin-right: 2mm;
+}
+footer {
+    background-color: chartreuse;
+    text-align: center;
+    /* height:50px; */ 
+    line-height: 2pc; 
+
+    
+}
+#copyR {
+    margin-top: 100px;
+}
+
